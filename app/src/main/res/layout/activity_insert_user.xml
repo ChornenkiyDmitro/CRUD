@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".IsertUserActivity">
+    tools:context=".InsertUserActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -18,52 +18,52 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_name"
+            android:id="@+id/tilName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_name">
 
             <EditText
-                android:id="@+id/et_name"
+                android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_surname"
+            android:id="@+id/tilSurname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_surname">
 
             <EditText
-                android:id="@+id/et_surname"
+                android:id="@+id/etSurname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_gender"
+            android:id="@+id/tilGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_gender">
 
             <EditText
-                android:id="@+id/et_gender"
+                android:id="@+id/etGender"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_age"
+            android:id="@+id/tilAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_age">
 
             <EditText
-                android:id="@+id/et_age"
+                android:id="@+id/etAge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number" />
@@ -72,7 +72,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/bttn_save"
+        android:id="@+id/buttonSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"

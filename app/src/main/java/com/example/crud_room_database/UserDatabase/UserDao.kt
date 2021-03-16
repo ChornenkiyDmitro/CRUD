@@ -11,7 +11,7 @@ interface UserDao {
     fun findById(id: Int): UserEntity
 
     @Query("SELECT * FROM users ORDER BY id ASC")
-    fun getAll(): LiveData<List<UserEntity>>
+    fun getAll(): List<UserEntity>
 
     @Query("DELETE FROM users WHERE id LIKE :id")
     fun deleteById(id: Int)
