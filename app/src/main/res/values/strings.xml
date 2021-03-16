@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CRUD_Room_Database</string>
+
+    //TextInputLayout
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_age">Age</string>
+
+    //Button
+    <string name="save">Save</string>
+
+    //List item template
+    <string name="list_item_id">id</string>
+    <string name="list_item_name">name</string>
+    <string name="list_item_surname">surname</string>
+    <string name="list_item_gender">gender</string>
+    <string name="list_item_age">age</string>
+
+</resources>
