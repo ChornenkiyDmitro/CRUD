@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CRUD_Room_Database</string>
+    <string name="app_name">CRUD</string>
 
     //TextInputLayout
     <string name="hint_name">Name</string>
@@ -8,7 +8,8 @@
     <string name="hint_age">Age</string>
 
     //Button
-    <string name="save">Save</string>
+    <string name="save_button">Save</string>
+    <string name="update_button">Update</string>
 
     //List item template
     <string name="list_item_id">id</string>
@@ -17,4 +18,9 @@
     <string name="list_item_gender">gender</string>
     <string name="list_item_age">age</string>
 
+    //Dialog 
+    <string name="dialog_title_delete_user_by_id">Delete user</string>
+    <string name="dialog_message_delete_user_by_id">Are you sure to delete user ?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">Cancel</string>
 </resources>
