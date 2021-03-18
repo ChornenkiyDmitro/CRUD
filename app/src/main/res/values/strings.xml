@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CRUD_Room_Database</string>
+    <string name="app_name">CRUD</string>
 
     //TextInputLayout
     <string name="hint_name">Name</string>
@@ -9,6 +9,7 @@
 
     //Button
     <string name="save">Save</string>
+    <string name="test">Mock User Test</string>
 
     //List item template
     <string name="list_item_id">id</string>

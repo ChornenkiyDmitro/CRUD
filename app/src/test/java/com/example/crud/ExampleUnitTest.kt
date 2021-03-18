@@ -1,4 +1,4 @@
-package com.example.crud_room_database
+package com.example.crud
 
 import org.junit.Test
 

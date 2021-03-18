@@ -1,8 +1,7 @@
-package com.example.crud_room_database.UserDatabase
+package com.example.crud.database.dao
 
-import android.os.FileObserver.DELETE
-import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.example.crud.database.entity.UserEntity
 
 @Dao
 interface UserDao {
@@ -10,8 +9,8 @@ interface UserDao {
     @Query("SELECT * FROM users WHERE id LIKE :id")
     fun findById(id: Int): UserEntity
 
-    @Query("SELECT * FROM users ORDER BY id ASC")
-    fun getAll(): LiveData<List<UserEntity>>
+    @Query("SELECT * FROM users")
+    fun getAll(): List<UserEntity>
 
     @Query("DELETE FROM users WHERE id LIKE :id")
     fun deleteById(id: Int)
@@ -19,10 +18,10 @@ interface UserDao {
     @Query("DELETE FROM users ")
     fun deleteAll()
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(vararg user: UserEntity)
 
-    @Update
-    fun updateUser(vararg users : UserEntity)
+    @Update(onConflict = OnConflictStrategy.REPLACE)
+    fun updateUser(vararg users: UserEntity)
 
 }
