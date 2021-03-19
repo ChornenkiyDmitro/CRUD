@@ -20,7 +20,12 @@
 
     //Dialog 
     <string name="dialog_title_delete_user_by_id">Delete user</string>
+    <string name="dialog_title_delete_all_users">Delete all users</string>
     <string name="dialog_message_delete_user_by_id">Are you sure to delete user ?</string>
+    <string name="dialog_message_delete_all_users">Are you sure to delete all users ?</string>
     <string name="dialog_positive_button">OK</string>
     <string name="dialog_negative_button">Cancel</string>
+
+    //Menu
+    <string name="menu_delete_all_users">Delete all</string>
 </resources>

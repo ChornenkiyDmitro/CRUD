@@ -23,6 +23,7 @@ class UpdateUserActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_update_user)
+
         val idUser: Int = intent.getSerializableExtra("user") as Int
         val user = getUserById(idUser)
         title = user?.name
